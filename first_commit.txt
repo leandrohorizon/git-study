@@ -1,3 +1,11 @@
-first commit
-
-new branch
+git init
+git remote add origin https://github.com/leandrohorizon/git-study.git
+git branch -M main
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+git checkout -b new-branch
+git add .
+git commit -m "new branch"
+git push --set-upstream origin new-branch
