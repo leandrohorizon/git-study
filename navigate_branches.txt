@@ -1,0 +1,3 @@
+git branch // lista todas as branch
+git checkout nome_branch // muda de branch
+git pull // atualiza a branch
